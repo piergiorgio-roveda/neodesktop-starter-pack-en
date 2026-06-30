@@ -69,7 +69,7 @@ this page:
 From there on:
 
 - **The PDF**, downloadable from this address (Google Drive, accessible to anyone with the
-  link): [URL-PDF-EN] — is self-sufficient: it contains everything needed to understand and
+  link): https://drive.google.com/file/d/1XNwp4V5z-1E06YDMt0l5EXF_jrOHanWC/view?usp=sharing — is self-sufficient: it contains everything needed to understand and
   rebuild the package, even without opening the repo.
 - **With the help of your AI assistant**, by feeding it to your Claude Code (or another LLM) to
   have it explained, translated or guide you step by step: it's written precisely to be
