@@ -128,7 +128,7 @@ without closed formats. The **placeholders** are uppercase words in square brack
 
 | File | What it does | Why it's there |
 |---|---|---|
-| `README.md` | The repo's entry point, bilingual (English/Italian). Explains what it is and the self-service adoption flow. | It's the first thing you read landing on the public repo. |
+| `README.md` | The repo's entry point, in English (the Italian version lives in the twin repo `neodesktop-starter-pack-it`). Explains what it is and the self-service adoption flow. | It's the first thing you read landing on the public repo. |
 | `CLAUDE.md` | The agent's **contract**: who you are, how you work, and the rules it always follows. The agent reads it at every session. It contains placeholders (`[NAME]`, `[PROFESSION]`, `[DOMAIN]`, `[LANGUAGE]`, `[WORKFLOW]`, `[TOOLS]`, `[TONE]`). | It's the heart of the method: a prompt written once works like a stable contract, so you don't repeat the same instructions every time. |
 | `PROVENANCE.en.md` | This document. | It lets you understand and rebuild the package on your own. |
 
@@ -166,7 +166,7 @@ translated, not even in the version in another language.
 
 | File | What it does | Why it's there |
 |---|---|---|
-| `context/_profilo.md` | Your profile in short prose (with placeholders, filled in by `/init`): who you are, how you work, tools, preferred tone. | The agent reads it to answer you in the right way from the start. |
+| `context/_profilo.md` | Your profile in short prose: who you are, how you work, tools, preferred tone. In the template it has **placeholders**, which **`/init` fills in** during the interview — you don't write it by hand. | The agent reads it to answer you in the right way from the start. |
 | `context/clients/_README.md` | Guide to the clients folder: one file per client, **as** they are needed (don't create empty ones). | Explains how the memory about clients grows without filling it with empty files. |
 | `context/projects/_README.md` | Guide to the projects folder: one file per project, as you go. | Same, for projects. |
 
@@ -249,8 +249,9 @@ reference, not a download.
 8. **Initialize Git and make the first commit.** `git init`, then stage the files you created
    (with explicit paths) and make an initial commit. The link to a remote repository can come
    whenever you want.
-9. **Run `/init`.** It interviews you and turns the skeleton into your personal space, in your
-   language. From here on it's yours.
+9. **Run `/init`** — the skill you just wrote at step 6. It's the *bootstrap*: first you create
+   the skill together with your agent, then you use it as a command. It interviews you and turns
+   the skeleton into your personal space, in your language. From here on it's yours.
 
 ### Verification
 
