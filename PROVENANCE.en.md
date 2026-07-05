@@ -1,5 +1,14 @@
 # PROVENANCE — neodesktop-starter-pack-en
 
+> [!IMPORTANT]
+> **Do not `git push` to this public repository.** It is the shared *template* for everyone,
+> not your personal workspace. To adopt your own neoDesktop:
+> 1. Create your **own private repository** and **clone/rebuild** this pack into it
+>    (not "Fork": a fork on GitHub stays **public** — your data would be exposed).
+> 2. Personalize it with `/init` **on your private repo**.
+> 3. When you want to activate the channel, **add `piergiorgio-roveda` as a collaborator to
+>    YOUR private repo** — do not request access to this one.
+
 This document tells you **where** this starter-pack comes from, **what each file contains**
 and **how you can rebuild it yourself**. It is meant to be read calmly — even with the help
 of your AI assistant — before deciding whether and how to adopt it.
